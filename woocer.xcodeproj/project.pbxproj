@@ -78,8 +78,6 @@
 		91F505972767819B00BD2D4C /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		91F50599276782D500BD2D4C /* ImageObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageObject.swift; sourceTree = "<group>"; };
 		91F5059F27678D6800BD2D4C /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
-		D11CC62570A9166C51D53AA4 /* Pods-woocer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-woocer.release.xcconfig"; path = "Target Support Files/Pods-woocer/Pods-woocer.release.xcconfig"; sourceTree = "<group>"; };
-		FCD7AF6AF5253F3B98324803 /* Pods-woocer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-woocer.debug.xcconfig"; path = "Target Support Files/Pods-woocer/Pods-woocer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,16 +98,6 @@
 				2C52AA1F0F18ED220E5A1BAE /* Pods_woocer.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		71CFFABABAB9D441850A2D5B /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FCD7AF6AF5253F3B98324803 /* Pods-woocer.debug.xcconfig */,
-				D11CC62570A9166C51D53AA4 /* Pods-woocer.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		913414432767CCA3003946A7 /* KingFisher */ = {
@@ -143,7 +131,6 @@
 				91F505342767327100BD2D4C /* woocer */,
 				91F505332767327100BD2D4C /* Products */,
 				02CA00B223022EE28A41F95B /* Frameworks */,
-				71CFFABABAB9D441850A2D5B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -665,7 +652,6 @@
 		};
 		91F505472767327200BD2D4C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FCD7AF6AF5253F3B98324803 /* Pods-woocer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -696,7 +682,6 @@
 		};
 		91F505482767327200BD2D4C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D11CC62570A9166C51D53AA4 /* Pods-woocer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
