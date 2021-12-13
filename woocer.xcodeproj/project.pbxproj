@@ -44,6 +44,8 @@
 
 /* Begin PBXFileReference section */
 		2C52AA1F0F18ED220E5A1BAE /* Pods_woocer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_woocer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41E9C4962ADBCB1D933D6644 /* Pods-woocer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-woocer.release.xcconfig"; path = "Target Support Files/Pods-woocer/Pods-woocer.release.xcconfig"; sourceTree = "<group>"; };
+		69F01BE6FF90F72ECAA456F0 /* Pods-woocer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-woocer.debug.xcconfig"; path = "Target Support Files/Pods-woocer/Pods-woocer.debug.xcconfig"; sourceTree = "<group>"; };
 		913414442767CCB9003946A7 /* KingFisherHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingFisherHelper.swift; sourceTree = "<group>"; };
 		913414462767D092003946A7 /* ProductHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductHelper.swift; sourceTree = "<group>"; };
 		913414482767D7CF003946A7 /* ContainerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerHelper.swift; sourceTree = "<group>"; };
@@ -100,6 +102,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4B8440FC3D7B40DFE5BE5370 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69F01BE6FF90F72ECAA456F0 /* Pods-woocer.debug.xcconfig */,
+				41E9C4962ADBCB1D933D6644 /* Pods-woocer.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		913414432767CCA3003946A7 /* KingFisher */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +143,7 @@
 				91F505342767327100BD2D4C /* woocer */,
 				91F505332767327100BD2D4C /* Products */,
 				02CA00B223022EE28A41F95B /* Frameworks */,
+				4B8440FC3D7B40DFE5BE5370 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -652,6 +665,7 @@
 		};
 		91F505472767327200BD2D4C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69F01BE6FF90F72ECAA456F0 /* Pods-woocer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -682,6 +696,7 @@
 		};
 		91F505482767327200BD2D4C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41E9C4962ADBCB1D933D6644 /* Pods-woocer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

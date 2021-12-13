@@ -6,7 +6,6 @@
 //
 
 import RealmSwift
-import Kingfisher
 
 @objcMembers class Product: Object, Codable {
     dynamic var id: Int = 0
