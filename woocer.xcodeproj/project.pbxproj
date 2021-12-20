@@ -108,8 +108,15 @@
 				69F01BE6FF90F72ECAA456F0 /* Pods-woocer.debug.xcconfig */,
 				41E9C4962ADBCB1D933D6644 /* Pods-woocer.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		912B29DF2771203500CDD5CF /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				913414482767D7CF003946A7 /* ContainerHelper.swift */,
+			);
+			path = Container;
 			sourceTree = "<group>";
 		};
 		913414432767CCA3003946A7 /* KingFisher */ = {
@@ -162,6 +169,7 @@
 				91F505502767365C00BD2D4C /* Network */,
 				91F505522767370F00BD2D4C /* Modules */,
 				91F50551276736FF00BD2D4C /* Extensions */,
+				912B29DF2771203500CDD5CF /* Container */,
 				91F5059D27678D3A00BD2D4C /* Realm */,
 				91F5059327677ECA00BD2D4C /* Models */,
 				9134144D2767D9EA003946A7 /* Protocols */,
@@ -345,7 +353,6 @@
 		91F5058E276765BF00BD2D4C /* Container */ = {
 			isa = PBXGroup;
 			children = (
-				913414482767D7CF003946A7 /* ContainerHelper.swift */,
 				91F5058F276765CE00BD2D4C /* ProductsContainer.swift */,
 			);
 			path = Container;
